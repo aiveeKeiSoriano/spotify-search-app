@@ -6,9 +6,6 @@ import styled from "styled-components";
 let Wrapper = styled.div``
 
 export default class App extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
     componentDidMount() {
         this.getRequest()
